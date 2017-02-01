@@ -31,6 +31,10 @@ document.onkeyup = function(event) {
 			console.log("losses = " + losses);
 		}
 
+		//if key pressed is not letter???
+
+		//if key pressed is a duplicate??
+
 		//resets guessesLeft and guessesSoFar for the next game 
 		if ((guessesLeft===0) || (userGuess === computerChoice)) {
     		guessesLeft = 9;

@@ -1,0 +1,77 @@
+body {
+	background: url("../images/stars.jpg");
+	font-family: optima, candara, segoe, "Segoe UI", Calibri, Arial, sans-serif;
+	color: #070746;
+	font-size: 18px;
+}
+
+#main {
+	text-align: center;
+	background: white;
+	height: 600px;
+	width: 600px;
+	margin: 0 auto;
+	margin-top: 8%;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 100%;
+	border-color: #d8cbbb;
+	background: url("http://pre14.deviantart.net/4f68/th/pre/f/2016/046/f/a/ice_moon_texture_by_arminius1871-d9rwbmo.png");
+}
+
+h1 {
+	font-size: 48px;
+	padding-top: 120px;
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+
+#rules {
+	line-height: 1.5;
+}
+
+#results {
+	line-height: 2;
+	margin-top: 40px;
+}
+
+.animated {
+	background-image: url(/css/images/logo.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	-webkit-animation-duration: 4s;
+	animation-duration: 4s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+         
+	@-webkit-keyframes fadeIn {
+    	0% {opacity: 0;}
+        100% {opacity: 1;}
+    }
+         
+    @keyframes fadeIn {
+        0% {opacity: 0;}
+        100% {opacity: 1;}
+    }
+         
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+
+#wins {
+
+}
+
+#losses {
+
+}
+
+#guessesLeft {
+
+}
+
+#guessesSoFar {
+
+}
